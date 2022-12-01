@@ -10,6 +10,14 @@ Powered by React, Router, & Axios on the front end | Nodejs, Express, & MySQL on
 
 ## Launching the Server
 In the back-end directory use
+
     npm install
     then
     node server.js
+
+## Launching the Application
+In the front-end directory use
+
+    npm install
+    then
+    npm start
