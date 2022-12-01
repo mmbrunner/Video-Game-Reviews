@@ -18,6 +18,4 @@ In the back-end directory use
 ## Launching the Application
 In the front-end directory use
 
-    npm install
-    then
     npm start
