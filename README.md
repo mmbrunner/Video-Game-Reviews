@@ -1,2 +1,7 @@
-# Video-Game-Reviews
-CRUD Web Application powered by React, Nodejs, Express, &amp; MySQL to review different video games
+# Video Game Reviews
+Fullstack CRUD Web Application to review different video games
+
+Powered by React, Router, & Axios on the front end | Nodejs, Express, & MySQL on the back end
+  - Each Game has id, title, description, rating, published status
+  - We can create, review, update, &/or delete Games
+  - There is a Search Bar for finding Games by title
