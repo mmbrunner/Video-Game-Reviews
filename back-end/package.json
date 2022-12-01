@@ -10,7 +10,8 @@
     "nodejs",
     "express",
     "mysql",
-    "rest api"
+    "rest",
+    "api"
   ],
   "author": "mmbrunner",
   "dependencies": {
