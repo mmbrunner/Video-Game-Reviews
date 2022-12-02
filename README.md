@@ -13,6 +13,7 @@ Powered by React, Router, & Axios on the front end | Nodejs, Express, & MySQL on
 ## Launching the Server
 
 First, you'll need a MySQL Server to connect to and have the corresponding login information used in the .env file
+
 In the back-end directory use this to install needed libraries
 
     npm install
