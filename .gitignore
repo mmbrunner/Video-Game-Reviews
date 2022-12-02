@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 #Usually include .env files as well, but for this project example I wanted to leave it in
-#/.env
+#.env
 # dependencies
 *node_modules
 *.pnp
