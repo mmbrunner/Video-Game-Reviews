@@ -12,7 +12,7 @@ CREATE TABLE video_game_review.games (
 /* Select 10 Most Recent Records */
 SELECT *
 FROM (SELECT * FROM video_game_review.games ORDER BY vg_id DESC LIMIT 10) Rec10
-ORDER BY vg_id ASC;
+ORDER BY vg_id DESC;
 /* Create/Insert new record */
 INSERT INTO video_game_review.games (title, description, rating, published_status) VALUES ('','','','');
 /* Update record by ID */
@@ -24,5 +24,8 @@ DELETE FROM video_game_review.games
 WHERE vg_id = 0;
 /* Select Top 10 Published Rated Games */
 SELECT *
-FROM (SELECT * FROM video_game_review.games WHERE published_status = '1' ORDER BY rating DESC LIMIT 10) Top10
-ORDER BY rating DESC
+FROM (SELECT * FROM video_game_review.games WHERE published_status >= 1 ORDER BY rating DESC LIMIT 10) Top10
+ORDER BY rating DESC;
+/* Find a Game By Title */
+SELECT *
+FROM (SELECT * FROM video_game_review.games WHERE title rlike 'A' ORDER BY title ASC) findByTitle;
